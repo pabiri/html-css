@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'nicesugar';
+    src: url(fontes/Nice\ Sugar.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    color: #fcdce1;
+    color: #f886c0;
+    color: #f38f9f;
+    color: #dd6276;
+    color: #b93a4e;
+
+}
+
+body {
+    background-color: #fcdce1;
+    margin: 0;
+}
+
+nav {
+    background-color: #dd6276;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+nav > a {
+    color: white;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #b93a4e;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 10;
+    align-items: center;
+}
+
+.tittle {
+    font-family: 'nicesugar', 'arial', 'sanserif';
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-style: inherit;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: right;
+    width: 20%;
+    margin: 0;
+    width: 50%;
+    text-align: justify;
+    position: ;
+    
+}
+ 
+
+ 

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*
+   em HTML é id = em CSS é # (só pode um elemento)
+   em HTML é class = em CSS é . (pode mais de um elemento)
+*/
+
+body {
+    background-image: linear-gradient(to bottom, #0eb885, #008C72, #007369, #005A5B, #003840);
+    background-attachment: fixed;
+    font: normal normal 16px, 'Arial', 'Verdana', sans-serif;
+    color: white;
+}
+
+h1 {
+    font: bold normal 2em 'Oswald', 'Arial', sans-serif;
+    text-align: center;
+}
+
+#principal {
+    font: normal normal 3em '1UP', 'Arial', sans-serif
+
+}
+
+h2 {
+    font: bold normal 2em 'Oswald', 'Arial', sans-serif;
+    text-align: left;
+}
+
+p {
+    font: normal normal 16px 'Arial';
+    text-align: justify;
+    text-indent: 10px;
+}
+
+.basico {
+    color: rgb(173, 58, 58);
+}
+
+.intermediario {
+    color: rgb(160, 160, 61);
+}
+
+.avançado {
+    color: rgb(94, 94, 201);
+}
+
+.enfasebasico {
+    color: red;
+}
+
+.enfaseintermediario {
+    color: yellow;
+}
+
+.enfaseavançado {
+    color: blue;
+}

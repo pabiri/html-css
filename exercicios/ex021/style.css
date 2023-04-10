@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: lightgray;
+    line-height: 100px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    
+    /*
+    sem shorthand:
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategrey; 
+    shorthand de border abaixo:
+    */
+
+    border: 10px solid darkslategray;
+    
+    /*
+    sem short hand:
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    shorthand de padding abaixo:
+    
+    (neste caso do padding podemos colocar 10px apenas pois todos os lados são 10px)
+    */
+
+    padding: 10px; 
+    
+    /* lembrando que toda ordem será cima, direita, baixo e esquerda (top, right, bottom e left) fazendo um ponteiro!! 
+    */
+
+
+
+    /* nesse caso queremos deixar a box centralizada e por isso usamos o "auto" */
+    margin: auto; 
+  
+    
+}
+  
+/* existem muitos tipos de border style, como: groove, dashed, dotted, double e etc... */
+
+a {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+
+}

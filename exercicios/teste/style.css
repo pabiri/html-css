@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+
+body {
+    background-image: linear-gradient(to bottom, #87A878, #45553d );
+    background-attachment: fixed;
+}
+
+.main {
+    background-color: #45553d;
+    margin: top;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+    box-shadow: #000000;
+}
+
+
+.mainmenubtn {
+    background-color: #8484b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: #8484b9;
+    }
+.dropdown {
+    position: top;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(159, 183, 192);
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: #000000;
+    font-size: large;
+    font-style: bold;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
